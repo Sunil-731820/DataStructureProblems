@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class multiplyTwoLargestNum {
 	
-	 static void moduloMultiplication() {
+	 public static Long moduloMultiplication() {
 		 long a ;
 	     long b ;
 	     long sum ;
@@ -15,10 +15,12 @@ public class multiplyTwoLargestNum {
 	        for(long i=1;i<=a;i++) {
 	         sum = sum+b;
 	        }
-	        System.out.println("the multiplication of the two Number is " + sum);
+//	        System.out.println("the multiplication of the two Number is " + sum);
+	        return sum;
 	 }
 	public static void main(String[] args) {
-		moduloMultiplication();
+		Long res = moduloMultiplication();
+		System.out.println(res);
 		
         
 	}
