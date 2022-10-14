@@ -1,4 +1,4 @@
-package com.java.ds.Codechef;
+package com.java.ds.Array.Codechef;
 
 public class try1 {
     public static void main(String[] args) {
