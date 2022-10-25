@@ -20,7 +20,7 @@ public class FisrtExampleOfParallelSort {
         // }
 
         // Sorting the data from start index 0 to end index 4
-System.out.println("i am sorting the Data From 0 to 4 only");
+        System.out.println("i am sorting the Data From 0 to 4 only");
         Arrays.parallelSort(number,0,4);
         for(int num1 :number){
             System.out.println(num1);
