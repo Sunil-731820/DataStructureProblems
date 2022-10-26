@@ -11,6 +11,7 @@ class City{
 
     private String name;
     private double temp;
+    
     public City(String name, double temp) {
         this.name = name;
         this.temp = temp;

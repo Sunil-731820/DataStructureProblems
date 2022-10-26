@@ -7,8 +7,11 @@ public class Customer {
     private String name;
     private String email;
     private List<String> phonenumbers;
+
     public Customer() {
     }
+
+    
     public Customer(int id, String name, String email, List<String> phonenumbers) {
         this.id = id;
         this.name = name;

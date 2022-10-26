@@ -12,6 +12,17 @@ import java.util.stream.Stream;
 
 public class WhatIsStream {
     public static void main(String[] args) {
+        /*
+         * 
+         * 
+         * The Stream API is used to process collections of objects. A stream is a
+         * sequence of objects that supports various methods which can be pipelined to
+         * produce the desired result. The method provided by the stream are broadly
+         * categorized as
+         * 
+         * 1) Intermediate Methods.
+         * 2) Terminal Methods.
+         */
         String logs = " This is the ERROR Message of the given Code";
        System.out.println(logs);
 
