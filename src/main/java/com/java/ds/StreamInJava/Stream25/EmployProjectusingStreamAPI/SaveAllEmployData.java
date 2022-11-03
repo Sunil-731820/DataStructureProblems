@@ -7,9 +7,9 @@ public class SaveAllEmployData {
 
     public static List<EmployPOJO> saveAllEmployDataFile(){
         List<EmployPOJO> listOfEmployData = new ArrayList<>();
-        listOfEmployData.add(new EmployPOJO(10295214, "Sunil", "Kumar", 23, new City("Lucknow", 30), 226020, 1200000, "MALE", "Unmarried"));
-        listOfEmployData.add(new EmployPOJO(21029521, "Harish", "Kumar", 20, new City("Bangalore", 29), 226020, 1200000, "MALE", "Unmarried"));
-        listOfEmployData.add(new EmployPOJO(31029521, "Subham", "Kumar", 12, new City("Delhi", 34), 226020, 1200000, "MALE", "Unmarried"));
+        listOfEmployData.add(new EmployPOJO(10295214, "Sunil", "Kumar", 23, new City("Lucknow", 30), 226020, 100, "MALE", "Unmarried"));
+        listOfEmployData.add(new EmployPOJO(21029521, "Sunil", "Kumar", 20, new City("Bangalore", 29), 226020, 1200000, "MALE", "Unmarried"));
+        listOfEmployData.add(new EmployPOJO(31029521, "Sunil", "Kumar", 12, new City("Delhi", 34), 226020, 1200000, "MALE", "Unmarried"));
         listOfEmployData.add(new EmployPOJO(10295210, "Suman", "Kumari", 15, new City("Goa", 23), 226020, 1200000, "FEMALE", "Unmarried"));
         listOfEmployData.add(new EmployPOJO(10295215, "Khushboo", "Kumari", 13, new City("Chennai", 34), 226020, 1200000, "FEMALE", "Unmarried"));
         listOfEmployData.add(new EmployPOJO(71029521, "Arti", "Kumari", 10, new City("Noida", 34), 226020, 1200000, "FEMALE", "Unmarried"));

@@ -5,5 +5,8 @@ public class MainStreamcallHere {
         SaveAllEmployData save = new SaveAllEmployData();
         System.out.println("The List Of The Employ data is ");
         System.out.println(save.saveAllEmployDataFile());
+        System.out.println("I AM Calling getMinimumSalary()");
+       FunctionalStreamAPIMethods.getMinimumSalary();
+       FunctionalStreamAPIMethods.countDuplicateElement();
     }
 }
