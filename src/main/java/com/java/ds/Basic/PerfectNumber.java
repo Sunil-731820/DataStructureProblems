@@ -4,6 +4,34 @@ import java.util.Scanner;
 
 public class PerfectNumber {
 
+    public static void getNumber(){
+        // Scanner sc = new Scanner(System.in);
+        // int range  = sc.nextInt();
+        int i =1;
+        do {
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Enter the valid Number");
+            int givenNumber1 = sc.nextInt();
+            int sum1 = 0;
+            // int k=1;
+            if(givenNumber1>10 && givenNumber1<100){
+                for (i = 1; i < givenNumber1; i++) {
+                    if (givenNumber1 % i == 0) {
+                        sum1 = sum1 + i;
+                    }
+                }
+                if (sum1 == givenNumber1) {
+                    System.out.format("\n% d is a Perfect Number", givenNumber1);
+                    System.out.println("The Given Number By the USer is Perfect okay");
+                    break;
+                } else {
+                    System.out.format("\n% d is NOT a Perfect Number", givenNumber1);
+                    System.out.println("Entered Number by  the USer is not perfect Number");
+                }
+            }
+        } while (i!=0);
+    }
+
     public static void getOtherPerfectNumber() {
         int range;
         System.out.println("Enter the Raneg of the Number here");
@@ -33,7 +61,8 @@ public class PerfectNumber {
 
     }
     public static void main(String[] args) {
-        getOtherPerfectNumber();
+        getNumber();
+        // getOtherPerfectNumber();
         // int num1 = 6;
         // int i =1;
         // int saveNum1 = num1;
