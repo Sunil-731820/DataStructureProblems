@@ -25,6 +25,7 @@ public class FindFirstAndLastTarget {
         }else{
             System.out.println("Not Found in the Array Of The Nums");
         }
+        
 
     }
     public static void main(String[] args) {
