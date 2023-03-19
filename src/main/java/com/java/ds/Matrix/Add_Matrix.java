@@ -56,7 +56,7 @@ public class Add_Matrix {
 				}
 			}
 			
-			System.out.println("\npriting the matrxi after addition ");
+			System.out.println("\npriting the matrix after addition ");
 			for(int i=0;i<p;i++) {
 				for(int j=0;j<q;j++) {
 					System.out.println(c[i][j]+ " ");
