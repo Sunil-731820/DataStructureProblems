@@ -10,6 +10,7 @@ public class FirstArrayListExample {
         list.add("Ravi");
         list.add("Vijay");
         list.add("Ravi");
+        list.add("ABC");
         list.add("Ajay");
         System.out.println("The List Of The Data is ");
         System.out.println(list);
