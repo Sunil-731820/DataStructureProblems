@@ -1,4 +1,4 @@
-package com.java.ds.Array;
+package com.java.ds.Array.LeetCodeOfArray;
 
 import java.util.Scanner;
 

@@ -8,10 +8,10 @@ public class MaximumSubArrayWithLargestSum {
 		int max_so_far_Value = Integer.MIN_VALUE;
 		int max_ending_here = 0;
 		for(int i=0;i<size;i++) {
-			max_ending_here = max_ending_here+ arr[i];
+			max_ending_here = max_ending_here + arr[i];
 			if(max_so_far_Value<max_ending_here) {
 				max_so_far_Value = max_ending_here;
-			}
+			} 
 			if(max_ending_here <0) {
 				max_ending_here = 0;
 			}
