@@ -5,7 +5,7 @@ import java.util.LinkedList;
 
 import javax.sound.sampled.Line;
 
-public class FirstEXampleOfLinkedList {
+public class FirstEXampleOfLinkedList { 
     public static void main(String[] args) {
         System.out.println("This is The Example Of THe Linkedlist  ");
         LinkedList<String> linkedList = new LinkedList<>();
