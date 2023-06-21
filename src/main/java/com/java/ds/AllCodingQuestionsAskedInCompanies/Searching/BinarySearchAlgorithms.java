@@ -3,6 +3,8 @@ package com.java.ds.AllCodingQuestionsAskedInCompanies.Searching;
 import java.util.Scanner;
 
 public class BinarySearchAlgorithms {
+
+//	Sorting The Given Array 
 	static void sortTheGivenArray(int size , int[] arr ) {
 		for(int i=0;i<size;i++) {
 			for(int j=i;j<size;j++) {
@@ -19,6 +21,8 @@ public class BinarySearchAlgorithms {
 		}
 		System.out.println();
 	}
+	
+//	Searching The Element using Binary Search algorithms 
 	static int getBinarySearch(int size , int[] arr , int searchElement) {
 		System.out.println("The Binary Search Start From Here ");
 		int leftSide = 0 ; 
