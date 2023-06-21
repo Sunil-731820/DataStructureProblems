@@ -10,7 +10,7 @@ public class CountTheTripletInArray {
 		int size = sc.nextInt();
 		int[] arr = new int[size];
 		for(int i=0;i<size;i++) {
-			System.out.println("ENter The Element In The Array ");
+			System.out.println("Enter The Element In The Array ");
 			arr[i] = sc.nextInt();
 		}
 		System.out.println("The Element in The Array is ");
