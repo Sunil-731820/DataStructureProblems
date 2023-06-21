@@ -1,10 +1,13 @@
 package com.java.ds.Modifier;
 
 /*
- * So If You are Declaring The Any private Variable Without getter and Setter values In A Seprate Class Then
- * You can Not access Across That Entire CLass For THis You have To Create The getter and Setter values of The 
- * Given private variable SO that You can Access Across The Entire CLass But You Are Calling Any method Here From The Given Seprate CLass Like A Then After 
- * Creation of The object of That particular Class Then You can Not Called That Above Given private Method in java   
+ * So If You are Declaring The Any private Variable Without getter and Setter 
+ * values In A Separate Class Then You can Not access Across That Entire CLass For
+ *  THis You have To Create The getter and Setter values of The 
+ * Given private variable SO that You can Access Across The Entire CLass 
+ * But You Are Calling Any method Here From The Given Seprate CLass Like A 
+ * Then After Creation of The object of That particular Class Then
+ *  You can Not Called That Above Given private Method in java   
  */
 class A {
 	private int data = 40;
