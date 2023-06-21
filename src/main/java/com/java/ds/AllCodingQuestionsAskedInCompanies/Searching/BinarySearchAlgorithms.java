@@ -3,11 +3,27 @@ package com.java.ds.AllCodingQuestionsAskedInCompanies.Searching;
 import java.util.Scanner;
 
 public class BinarySearchAlgorithms {
+	static void sortTheGivenArray(int size , int[] arr ) {
+		for(int i=0;i<size;i++) {
+			for(int j=i;j<size;j++) {
+				if(arr[i]>arr[j]) {
+					int thirdElement = arr[i];
+					arr[i] = arr[j];
+					arr[j] = thirdElement;
+				}
+			}
+		}
+		System.out.println("The Array is After Sorting ");
+		for(int i=0;i<size;i++) {
+			System.out.print(arr[i] + " ");
+		}
+		System.out.println();
+	}
 	static int getBinarySearch(int size , int[] arr , int searchElement) {
 		System.out.println("The Binary Search Start From Here ");
 		int leftSide = 0 ; 
 		int rightSide = size-1;
-		if(leftSide<=rightSide) {
+		while(leftSide<=rightSide) {
 			int midValue = leftSide + (rightSide-leftSide )/2;
 			if(arr[midValue]==searchElement) {
 				return midValue;
@@ -34,6 +50,9 @@ public class BinarySearchAlgorithms {
 		for(int j=0;j<size;j++) {
 			System.out.print(arr[j] + " ");
 		}
+		System.out.println();
+		System.out.println("calling The Sorting Function To get All The ELement in Ascending Order ");
+		sortTheGivenArray(size, arr);
 		System.out.println();
 		System.out.println("Enter The Search Element In the Array ");
 		int searchElement = sc.nextInt();
