@@ -96,7 +96,7 @@ public class RearrangeTheArrayAccordingToFirstMaxAndFirstMinAndSoOn {
 			newArray[j + tempArray2.length] = tempArray2[j];
 		}
 		System.out.println("After And Again the New Array is : ");
-		for (int j = 0 + newArray.length / 4; j < newArray.length; j++) {
+		for (int j = 0 + newArray.length ; j < newArray.length; j++) {
 			System.out.print(newArray[j] + " ");
 		}
 		System.out.println("After Concatenation of The Array is ");
