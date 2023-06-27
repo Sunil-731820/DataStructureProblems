@@ -42,7 +42,6 @@ class LinkedList{
 			}
 			last.next = new_node;
 		}
-		
 	}
 	
 //	Displaying The Linkedlist 
