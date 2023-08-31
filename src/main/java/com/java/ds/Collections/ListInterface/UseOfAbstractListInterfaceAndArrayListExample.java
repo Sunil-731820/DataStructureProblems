@@ -63,6 +63,52 @@ public class UseOfAbstractListInterfaceAndArrayListExample {
 		while(itr1.hasNext()) {
 			System.out.println("The Tracking Of The Object Starting at the Index 2 is "+ itr1.next());
 		}
+//		6 : Use Of Remove() 
+		System.out.println("Before The Data is ");
+		System.out.println(newListOfData);
+		System.out.println("After Removing The Data using Remove() ");
+		System.out.println(newListOfData.remove(0));
+		System.out.println("The NEw Data is : ");
+		System.out.println(newListOfData);
+		
+//		7 : use Of set() for Updating the Data 
+		System.out.println("Before Updation The List of the Data is ");
+		System.out.println(newListOfData);
+		newListOfData.set(0, "Sunil Kumar ");
+		System.out.println("The New Data After Updations is ");
+		System.out.println(newListOfData);
+		
+//		8 : Use Of The subList() 
+		System.out.println("Before The List is ");
+		System.out.println(newListOfData);
+		System.out.println("After The Use Of The SubList method : ");
+		System.out.println(newListOfData.subList(0, 2));
+		AbstractList<String> subListWillbe = new ArrayList<String>();
+		subListWillbe = (AbstractList<String>) newListOfData.subList(1, 3);
+		System.out.println("Before Creating the new Abstrct List is ");
+		System.out.println(newListOfData);
+		System.out.println("After Storing The data in Teh Abstrct List is : ");
+		System.out.println(subListWillbe);
+		
+//		9 : use Of The ToArray() 
+		System.out.println("The Before use Of The toArray Method : ");
+		System.out.println(newListOfData);
+		System.out.println("After The use of The ToArray method : ");
+		System.out.println(newListOfData.toArray());
+		
+//		10 : Use Of The toString() 
+		System.out.println("Before The use of the toString method : ");
+		System.out.println("The Array is ");
+		System.out.println(newListOfData);
+		System.out.println("After The use Of The toString method : ");
+		System.out.println(newListOfData.toString());
+		
+//		11 : use Of The stream()
+		System.out.println("use of the Stream Method : ");
+		AbstractList abs = new ArrayList<String>();
+		int count  = (int) newListOfData.stream().count();
+		System.out.println("The Count is : ");
+		System.out.println(count);
 		
 	}
 
