@@ -74,6 +74,31 @@ class AllFunctionality {
 			System.out.println(list1.next());
 		}
 		
+//		5 : Use of removeIf()
+		System.out.println("The Array List before the use of the removeIf() ");
+		System.out.println(listOfNumber);
+		listOfNumber.add(100);
+		System.out.println("The List of The Numbers is : ");
+		System.out.println(listOfNumber);
+		System.out.println("After The Use of The removeIf Method : ");
+		System.out.println(listOfNumber.removeIf(num -> (num >1000)));
+		
+//		Creating The Array List of The String Objects 
+		ArrayList<String> StudentData = new ArrayList<String>();
+		StudentData.add("Sunil");
+		StudentData.add("Harish");
+		StudentData.add("SAi");
+		StudentData.add("Kamesh");
+		System.out.println("The Array List is ");
+		System.out.println(StudentData);
+		System.out.println("After The Use Of The removeIf Method : ");
+		System.out.println(StudentData.removeIf((name -> name.startsWith("Sunil"))));
+		
+		for (String string : StudentData) {
+			System.out.println(string);
+		}
+		
+
 	}
 	
 }
