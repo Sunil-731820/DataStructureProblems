@@ -108,6 +108,61 @@ public class UseOfLinkedListExample {
 		while(itr1.hasNext()) {
 			System.out.println(itr1.next());
 		}
+		
+//		18 : Use of The Offer() 
+		System.out.println("After The Adding The Element At the Last using Offer method : ");
+		linkedList.offer(5000);
+		System.out.println(linkedList);
+		
+//		19 : Use of The offerFirst() 
+		System.out.println("After The Asdding the Element At The Front of The LinkedList using offerFist method ");
+		linkedList.offerFirst(10000);
+		System.out.println(linkedList);
+		
+//		20 : use Of The offerLast method 
+		System.out.println("After The use Of The offerLast method : ");
+		System.out.println(linkedList.offerLast(300000));
+		System.out.println("The Size Of The Linked List is ");
+		System.out.println(linkedList.size());
+		linkedList.offerLast(900000);
+		System.out.println("The LinedkList is After the additions : ");
+		System.out.println(linkedList);
+		System.out.println("the Size of The Linked List after Addinh The Data is ");
+		System.out.println(linkedList.size());
+		
+//		21 use of peek() 
+		System.out.println("After The use of The peek method : ");
+		System.out.println(linkedList.peek());
+//		22 use Of The peekFirst method : 
+		System.out.println("After the use of The peeek First method : ");
+		System.out.println(linkedList.peekFirst());
+		
+//		23 : use Of The PeekLast method : 
+		System.out.println("Agfter the Use of The peek last method : ");
+		System.out.println(linkedList.peekLast());
+		
+//		24 : Use Of tHe poll() 
+		System.out.println("Before The use Of The Poll the Linked List data is ");
+		System.out.println(linkedList);
+		System.out.println("After The Use Of The poll Method : ");
+		System.out.println(linkedList.poll());
+		System.out.println("After The use of The Poll method the Linked List data is ");
+		System.out.println(linkedList);
+//		25 : Use Of The PollFirst() 
+		System.out.println("Before The use Of The pollFirst method The data is : ");
+		System.out.println(linkedList);
+		System.out.println("After teh use Of The pollFirst method : ");
+		System.out.println(linkedList.pollFirst());
+		System.out.println("Afetr The Use Of The pollFirst method the Data is ");
+		System.out.println(linkedList);
+//		26 : use of The pollLast() 
+		System.out.println("Before The Use Of The pollLast method The data ais : ");
+		System.out.println(linkedList);
+		System.out.println("After the Use of The polllast method : ");
+		System.out.println(linkedList.pollLast());
+		System.out.println("Aftre The Use Of The polLLast method data is : ");
+		System.out.println(linkedList);
+		
 	}
 	public static void main(String[] args) {
 		System.out.println("This is the use of the Linked List");
