@@ -71,7 +71,43 @@ public class UseOfLinkedListExample {
 			System.out.print(itr.next()+ "->");
 		}
 		
+//		11 : use of the element() 
+		System.out.println("After The use of The element() ");
+		int value = linkedList.element();
+		System.out.println("After The Head value form The Given LinkedList is ");
+		System.out.println(value);
 		
+		int secondValue = linkedList.element();
+		System.out.println("The Second Value is : ");
+		System.out.println(secondValue);
+//		12 : use of The getIndex() 
+		System.out.println("The LinkedList is Before The Use Of The getIndex Method ");
+		System.out.println(linkedList);
+		System.out.println("After The Use Of The getIndex Method : ");
+		System.out.println(linkedList.get(6));
+		
+//		13 : Use of The getFirst() 
+		System.out.println("After The use of The getFirst method : ");
+		System.out.println(linkedList.getFirst());
+		
+//		14 : use of The getLast()
+		System.out.println("After the use of The getLast method : ");
+		System.out.println(linkedList.getLast());
+		
+//		15 : use of indexOf() 
+		System.out.println("After The use of The IndexOf method ");
+		System.out.println(linkedList.indexOf(300));
+		
+//		16 : Use of The lastIndexOf() 
+		System.out.println("After The Use Of The LastIndeOf Method : ");
+		System.out.println(linkedList.lastIndexOf(300));
+		
+//		17 : Use Of The listIterator () 
+		System.out.println("After The use Of The List Iterator ");
+		Iterator<Integer> itr1 = linkedList.listIterator();
+		while(itr1.hasNext()) {
+			System.out.println(itr1.next());
+		}
 	}
 	public static void main(String[] args) {
 		System.out.println("This is the use of the Linked List");
